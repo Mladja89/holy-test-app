@@ -1,0 +1,32 @@
+body {
+    #app {
+        background: #eff0f1;
+        .book-preview{
+            background: white;
+            height: 100%;
+            .preview-top{
+                background: #012b73;
+                color: white;
+                font-size: 14px;
+                padding: 10px;
+                div {
+                &:nth-child(1) {
+                    
+                }
+                &:nth-child(2) {
+                    font-weight: bold;
+                    text-transform: uppercase;;
+                }}
+            }
+            .preview-bottom {
+                background: white;
+                font-size: 15px;
+                padding: 10px;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
